@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 const Inscription = ({ title }) => {
   useEffect(() => {
     document.title = title
-  }, [])
+  }, [title])
   return <h1>Inscription</h1>
 }
 
