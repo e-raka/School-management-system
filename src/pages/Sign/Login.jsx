@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import Button from '../../components/UI/Button'
+import Button from '../../components/UI/Button/Button'
 import {
   AiOutlineLogin,
   AiOutlineEyeInvisible,
@@ -150,6 +150,9 @@ const Input = styled.input`
   border: 1px solid
     ${(props) => (!props.hasError ? themes.colors.text_dark : 'red')};
   border-radius: 2px;
+  &:focus {
+    border: 1px solid ${themes.colors.primary};
+  }
 `
 const Message = styled.span`
   color: red;

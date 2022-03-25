@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { themes } from '../../settings/themes_constants'
+import { themes } from '../../../settings/themes_constants'
 
 const sizes = {
   large: '100%',
