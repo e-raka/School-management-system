@@ -14,7 +14,6 @@ const Login = ({ title }) => {
   }, [title])
   return (
     <Container>
-      <SideBanner />
       <Content>
         <Title>Se connecter</Title>
         <Descript>
@@ -22,6 +21,7 @@ const Login = ({ title }) => {
         </Descript>
         <LoginForm />
       </Content>
+      <SideBanner />
     </Container>
   )
 }
@@ -121,7 +121,7 @@ const Content = styled.div`
   width: 40%;
   height: max-height;
   margin: auto;
-  padding: 0 1.2rem;
+  padding: 0 3rem;
 `
 const Title = styled.h1`
   color: ${themes.colors.primary};
